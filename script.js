@@ -30,6 +30,9 @@ $(document).ready(function(){
     $("#choosefile").hide();
   })});
 
+
+
+
   function hideChoosefile(){
     var choosefile = document.getElementById('choosefile');
     choosefile.addEventListener('click', showPicture, false);
