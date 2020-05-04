@@ -13,7 +13,7 @@ textarea {
 
  .container {
   background-color: white;
-  
+
 }
 
 table{
@@ -248,4 +248,14 @@ p {
  width: 100%;
  height: 67%;
  z-index: 10;
+}
+
+.recipe{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  align-items: center;
+  box-shadow: 0 7px 10px rgba(0,0,0,0.25);
+  padding: 5px;
+  margin-top: 5px;
 }
