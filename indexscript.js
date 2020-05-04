@@ -7,18 +7,9 @@ $(document).ready(function() {
    $('.potatofrittata').hide();
    $('.pizzatomato').hide();
    $('.vanillamilkshake').hide();
+   $('.sausage_mushroom_pasta').hide();
+   $('.sanchoybow').hide();
 });
-$(document).ready(function(){
-  $('.recipe-button').click(function(){
-    $('.pancake').show();
-    $('.spaghetti').show();
-    $('.spicypork').show();
-    $('.pasta').show();
-    $('.chickenpotato').show();
-    $('.potatofrittata').show();
-    $('.pizzatomato').show();
-    $('.vanillamilkshake').show();
-  })});
 
 $(document).ready(function(){
   $("#flour,#sugar,#egg,#milk,#oil").change(function() {
@@ -80,5 +71,21 @@ $(document).ready(function(){
     if (this.checked){
       $(".recipe-button").click(function(){
         $('.vanillamilkshake').show();
+    })
+}})});
+
+$(document).ready(function(){
+  $("#pasta").change(function() {
+    if (this.checked){
+      $(".recipe-button").click(function(){
+        $('.sausage_mushroom_pasta').show();
+    })
+}})});
+
+$(document).ready(function(){
+  $("#oil, #stock, #beans").change(function() {
+    if (this.checked){
+      $(".recipe-button").click(function(){
+        $('.sanchoybow').show();
     })
 }})});
