@@ -14,13 +14,13 @@ textarea {
 
  .container {
   background-color: white;
-
 }
 
 table{
   border-spacing: 15px 15px;
 }
 
+/* Heading */
 h1{
   border-radius: 15px;
   background-color: red;
@@ -38,10 +38,24 @@ h2 {
   color: black;
 }
 
+h3 {
+   text-align: center;
+  font-weight: 900;
+  margin: 10px 10px 10px 10px;
+  color: black;
+}
+/* End heading */
+
+/* Text alignment */
 p {
   padding: 10px;
   text-align: center;
 }
+
+.layout {
+  margin: 0 10px 0 10px;
+}
+/* End text alignment */
 
 .checkboxes {
   text-align: justify;
@@ -54,6 +68,7 @@ p {
   margin: 0px 0px 0px 20px;
 }
 
+/* Show and upload recipes */
 .show {
   text-align: center;
   margin-top: 15px;
@@ -63,8 +78,10 @@ p {
   text-align: center;
   margin-top: 5px;
 }
+/* End show and upload recipes */
 
-/*buttons styles*/
+
+/*Buttons styles*/
 .recipe-button {
   border-radius: 30px;
   background-color: red;
@@ -180,9 +197,9 @@ p {
   margin: 4px 2px;
   cursor: pointer;
 }
-
 /*End button styles*/
 
+/* Image layout */
 .image{
   text-align: center;
   background-color: white;
@@ -195,6 +212,17 @@ p {
   width:150px;
   height:100px;
 }
+
+.recipeimage {
+  height:150px; 
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* End image layout */
 
 /*Bottom navbar*/
 .navbar {
@@ -229,6 +257,7 @@ p {
 }
 /*End bottom navbar*/
 
+/* List of available items */
 .card_available_items1 {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -264,6 +293,7 @@ p {
  z-index: 10;
 }
 
+/* Recipe list layout */
 .recipe{
   display: flex;
   box-shadow: 0 7px 10px rgba(0,0,0,0.25);
@@ -292,3 +322,6 @@ p {
   padding: 5px;
   margin-top: 5px;
 }
+/* End recipe list layout */
+
+/* End General Style */
