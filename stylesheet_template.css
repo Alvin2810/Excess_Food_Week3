@@ -5,6 +5,7 @@ body {
   max-width: 74rem;
   text-align: left;
   margin: auto;
+  overflow-y: scroll;
 }
 
 textarea {
@@ -77,6 +78,18 @@ p {
   cursor: pointer;
 }
 
+.allrecipe{
+  border-radius: 30px;
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 .upload-button {
   border-radius: 30px;
   background-color: red;
@@ -253,6 +266,28 @@ p {
 
 .recipe{
   display: flex;
+  box-shadow: 0 7px 10px rgba(0,0,0,0.25);
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.recipe_list{
+  background-color: white;
+  position: absolute;
+  top:80px;
+  left:5px;
+  right:5px;
+  bottom:100px;
+}
+.list{
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.list div{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  align-items: center;
   box-shadow: 0 7px 10px rgba(0,0,0,0.25);
   padding: 5px;
   margin-top: 5px;
