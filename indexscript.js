@@ -111,6 +111,16 @@ $(document).ready(function(){
         $('.home').hide();
     })
 }})});
+
+$(document).ready(function(){
+  $("#shallots, #bacon, #lemon, #rice, #cinnamon, #honey").change(function() {
+    if (this.checked){
+      $(".recipe-button").click(function(){
+        alert("No recipes with selected ingredients are available.");
+        location.reload();
+    })
+}})});
+
 $(document).ready(function(){
 $(".allrecipe").click(function(){
   $('.pancake').show();
